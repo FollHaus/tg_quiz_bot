@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "question": "Что такое Python?",
+        "options": ["Язык программирования", "Тип данных", "Музыкальный инструмент", "Змея на английском"],
+        "correct_option": 0
+    },
+    {
+        "id": 2,
+        "question": "Какой тип данных используется для хранения целых чисел?",
+        "options": ["int", "float", "str", "natural"],
+        "correct_option": 0
+    },
+    {
+        "id": 3,
+        "question": "Какой метод используется для вывода данных на экран в Python?",
+        "options": ["print()", "output()", "display()", "show()"],
+        "correct_option": 0
+    },
+    {
+        "id": 4,
+        "question": "Какая библиотека используется для работы с массивами в Python?",
+        "options": ["NumPy", "Pandas", "Matplotlib", "Scikit-learn"],
+        "correct_option": 0
+    },
+    {
+        "id": 5,
+        "question": "Как обозначается комментарий в Python?",
+        "options": ["#", "//", "/*", "<!--"],
+        "correct_option": 0
+    },
+    {
+        "id": 6,
+        "question": "Как называется неизменяемый тип данных в Python?",
+        "options": ["tuple", "list", "dict", "set"],
+        "correct_option": 0
+    },
+    {
+        "id": 7,
+        "question": "Какой модуль используется для работы с временем в Python?",
+        "options": ["time", "datetime", "os", "calendar"],
+        "correct_option": 1
+    },
+    {
+        "id": 8,
+        "question": "Какой оператор используется для возведения в степень?",
+        "options": ["**", "*", "^", "pow"],
+        "correct_option": 0
+    },
+    {
+        "id": 9,
+        "question": "Как называется метод, добавляющий элемент в конец списка?",
+        "options": ["append()", "add()", "insert()", "extend()"],
+        "correct_option": 0
+    },
+    {
+        "id": 10,
+        "question": "Как называется цикл с заранее известным количеством итераций?",
+        "options": ["for", "while", "do-while", "loop"],
+        "correct_option": 0
+    },
+    {
+        "id": 11,
+        "question": "Какой метод используется для преобразования строки в нижний регистр?",
+        "options": ["lower()", "upper()", "capitalize()", "strip()"],
+        "correct_option": 0
+    },
+    {
+        "id": 12,
+        "question": "Какой метод возвращает количество элементов в списке?",
+        "options": ["len()", "size()", "count()", "length()"],
+        "correct_option": 0
+    },
+    {
+        "id": 13,
+        "question": "Какая структура данных является упорядоченной?",
+        "options": ["list", "set", "dict", "frozenset"],
+        "correct_option": 0
+    },
+    {
+        "id": 14,
+        "question": "Какой метод используется для удаления пробелов в начале и конце строки?",
+        "options": ["strip()", "trim()", "remove()", "cut()"],
+        "correct_option": 0
+    },
+    {
+        "id": 15,
+        "question": "Какой тип данных используется для хранения ключ-значение?",
+        "options": ["dict", "list", "tuple", "set"],
+        "correct_option": 0
+    },
+    {
+        "id": 16,
+        "question": "Какой модуль используется для работы с файлами JSON?",
+        "options": ["json", "pickle", "csv", "os"],
+        "correct_option": 0
+    },
+    {
+        "id": 17,
+        "question": "Какой метод используется для чтения данных из файла?",
+        "options": ["read()", "write()", "open()", "input()"],
+        "correct_option": 0
+    },
+    {
+        "id": 18,
+        "question": "Какой оператор используется для проверки принадлежности элемента коллекции?",
+        "options": ["in", "is", "==", "has"],
+        "correct_option": 0
+    },
+    {
+        "id": 19,
+        "question": "Как называется встроенная функция для сортировки списка?",
+        "options": ["sorted()", "sort()", "order()", "arrange()"],
+        "correct_option": 0
+    },
+    {
+        "id": 20,
+        "question": "Какая функция используется для преобразования строки в число с плавающей точкой?",
+        "options": ["float()", "int()", "str()", "double()"],
+        "correct_option": 0
+    }
+]
