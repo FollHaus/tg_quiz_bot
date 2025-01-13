@@ -27,9 +27,9 @@ async def answer_callback(callback: types.CallbackQuery):
         await callback.message.answer(f'{button_text} верный ответ!')
         current_index += 1
         correct += 1
+        await update_user_db(callback.from_user.id, current_index, correct_answer=correct,
+                             incorrect_answer=incorrect)
         if current_index <= len(all_questions):
-            await update_user_db(callback.from_user.id, current_index, correct_answer=correct,
-                                 incorrect_answer=incorrect)
             await next_question(callback.from_user.id, callback.message)
         else:
             await finish_game(callback)
@@ -37,9 +37,9 @@ async def answer_callback(callback: types.CallbackQuery):
         await callback.message.answer(f'{button_text} не верный ответ!')
         current_index += 1
         incorrect += 1
+        await update_user_db(callback.from_user.id, current_index, correct_answer=correct,
+                             incorrect_answer=incorrect)
         if current_index <= len(all_questions):
-            await update_user_db(callback.from_user.id, current_index, correct_answer=correct,
-                                 incorrect_answer=incorrect)
             await next_question(callback.from_user.id, callback.message)
         else:
             await finish_game(callback)
