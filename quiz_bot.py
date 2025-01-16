@@ -10,7 +10,7 @@ from handlers import cmd_start, cmd_quiz, answer_callback, cmd_finish
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = '8099428440:AAHGyvWzXczdvLB4Uk-MUGl89x7lnuuundw'
+API_TOKEN = 'YOUR_TOKEN'
 # Список вопросов
 DATA_QUESTIONS = 'source/data_questions.json'
 
